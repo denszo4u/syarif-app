@@ -36,7 +36,7 @@ export function HealthPage() {
   }, []);
 
   // Update metrics for current user
-  const updateMyMetrics = (field: string, value: number) => {
+  const _updateMyMetrics = (field: string, value: number) => {
     const currentUserKey = "user1"; // Set dynamically per logged-in user
     const updated = {
       ...metrics,

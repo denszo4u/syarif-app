@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Gamepad2, RotateCcw, Trophy } from "lucide-react";
+import { Gamepad2, RotateCcw } from "lucide-react";
 
 type Board = (string | null)[];
 
